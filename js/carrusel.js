@@ -1,5 +1,5 @@
 const carrusel = document.querySelector('.carrusel-ites');
-
+let maxscrollLeft =carrusel.scrollWidth - carrusel.clientWidth
 let intervalo = null;
 let paso = 1;
 const start = () => {
