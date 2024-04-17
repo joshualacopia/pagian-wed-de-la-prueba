@@ -1,5 +1,8 @@
 const carrusel = document.querySelector('.carrusel-ites');
-let maxscrollLeft =carrusel.scrollWidth - carrusel.clientWidth
+document.getElementById('btn_alerta').onclick = function(){
+alert('Hola Mundo!');
+}
+let maxscrollLeft =carrusel.scrollWidth - carrusel.clientWidth;
 let intervalo = null;
 let paso = 1;
 const stop = () => {
@@ -20,3 +23,4 @@ const start = () => {
     carrusel.addEventListener('mouseleave', start);
 };
 start();
+
