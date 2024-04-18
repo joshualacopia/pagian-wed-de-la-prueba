@@ -1,7 +1,4 @@
 const carrusel = document.querySelector('.carrusel-ites');
-document.getElementById('btn_alerta').onclick = function(){
-alert('Hola Mundo!');
-}
 let maxscrollLeft =carrusel.scrollWidth - carrusel.clientWidth;
 let intervalo = null;
 let paso = 1;
